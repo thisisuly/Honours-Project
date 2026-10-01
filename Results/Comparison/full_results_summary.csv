@@ -1,0 +1,20 @@
+dataset,model,target,feature_type,accuracy,macro_f1
+BIG2015,RF,Family,bytes,98.04,0.9685
+BIG2015,RF,Family,opcodes,99.2,0.9907
+BIG2015,RF,Family,combined,98.47,0.9723
+CIC-MalMem,RF,Class,static,99.95,0.9995
+CIC-MalMem,RF,Class,dynamic,100.0,1.0
+CIC-MalMem,RF,Class,hybrid,100.0,1.0
+CIC-MalMem,RF,FamilyTop,static,74.39,0.5207
+CIC-MalMem,RF,FamilyTop,dynamic,70.32,0.4393
+CIC-MalMem,RF,FamilyTop,hybrid,76.04,0.5514
+CIC-MalMem,MLP,Class,static,99.82,0.9982
+CIC-MalMem,MLP,Class,dynamic,99.83,0.9983
+CIC-MalMem,MLP,Class,hybrid,99.92,0.9992
+CIC-MalMem,MLP,FamilyTop,static,65.09,0.3484
+CIC-MalMem,MLP,FamilyTop,dynamic,64.65,0.3272
+CIC-MalMem,MLP,FamilyTop,hybrid,66.71,0.3685
+CIC-MalMem,RF (Ensemble),FamilyTop,hybrid,75.19,0.5379
+CIC-MalMem,MLP (Ensemble),FamilyTop,hybrid,67.39,0.3898
+CIC-MalMem,Average (Ensemble),FamilyTop,hybrid,74.3,0.5196
+CIC-MalMem,Stacking (Ensemble),FamilyTop,hybrid,74.98,0.5355

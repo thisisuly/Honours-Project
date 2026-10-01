@@ -1,0 +1,4 @@
+mode,cv_accuracy_mean,cv_accuracy_std,cv_balanced_acc_mean,cv_balanced_acc_std,cv_macro_f1_mean,cv_macro_f1_std,test_accuracy,test_balanced_acc,test_macro_f1
+bytes,0.982776,0.002295,0.966445,0.013714,0.970695,0.010993,0.98038,0.960779,0.968461
+opcodes,0.990008,0.001924,0.970418,0.013997,0.975519,0.010918,0.992029,0.991057,0.990674
+combined,0.98843,0.002448,0.974208,0.014234,0.977616,0.01181,0.984672,0.965058,0.972282

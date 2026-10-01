@@ -1,0 +1,36 @@
+============================================================
+COMPARISON SUMMARY
+============================================================
+
+H1: Feature Type Effectiveness
+
+  BIG2015 (RF): best feature mode = opcodes (Macro F1 = 0.9907)
+    bytes: Macro F1 = 0.9685
+    combined: Macro F1 = 0.9723
+
+  CIC-MalMem (RF, Class): best feature type = dynamic (Macro F1 = 1.0)
+    static: Macro F1 = 0.9995
+    hybrid: Macro F1 = 1.0
+  CIC-MalMem (RF, FamilyTop): best feature type = hybrid (Macro F1 = 0.5514)
+    static: Macro F1 = 0.5207
+    dynamic: Macro F1 = 0.4393
+
+H2: RF vs MLP on CIC-MalMem
+
+  Target: Class
+    static: RF=0.9995 MLP=0.9982 (RF +0.0014)
+    dynamic: RF=1.0 MLP=0.9983 (RF +0.0017)
+    hybrid: RF=1.0 MLP=0.9992 (RF +0.0008)
+
+  Target: FamilyTop
+    static: RF=0.5207 MLP=0.3484 (RF +0.1723)
+    dynamic: RF=0.4393 MLP=0.3272 (RF +0.1121)
+    hybrid: RF=0.5514 MLP=0.3685 (RF +0.1829)
+
+H3: Ensemble vs Standalone Models
+
+  Best standalone: RF (Macro F1 = 0.5379)
+  Average ensemble: Macro F1 = 0.5196, does not improve over RF (-0.0183)
+  Stacking ensemble: Macro F1 = 0.5355, similar to RF (-0.0024)
+
+============================================================

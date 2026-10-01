@@ -1,0 +1,7 @@
+target,mode,n_features,n_classes,test_accuracy,test_macro_f1,iterations,best_validation_score,training_time
+Class,static,20,2,0.99818,0.99818,20,0.997887,233.5
+Class,dynamic,35,2,0.998294,0.998294,15,0.997725,177.7
+Class,hybrid,55,2,0.999204,0.999204,20,0.999512,259.9
+FamilyTop,static,20,16,0.650853,0.348382,20,0.383178,1986.0
+FamilyTop,dynamic,35,16,0.64653,0.327214,20,0.387932,2018.2
+FamilyTop,hybrid,55,16,0.667122,0.368504,20,0.447338,2095.0

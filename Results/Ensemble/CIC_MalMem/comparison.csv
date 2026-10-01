@@ -1,0 +1,5 @@
+model,accuracy,balanced_acc,macro_f1
+RF,75.19,0.5386,0.5379
+MLP,67.39,0.3913,0.3898
+Average,74.3,0.5222,0.5196
+Stacking,74.98,0.5343,0.5355
